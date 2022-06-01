@@ -10,15 +10,15 @@ import SwiftUI
 struct CoverImageView: View {
     
     //MARK: - Properties
-    
+    let coverImage: [CoverImage] = Bundle.main.decode("covers.json")
     //MARK: - Body
     
     var body: some View {
         TabView{
-            ForEach(0..<5){ item in
-                Image("cover-lion")
+            ForEach(coverImage){ item in
+                Image(item.name)
                     .resizable()
-                    .scaledToFit()
+                    .scaledToFill()
             }//: Loop
         }//: Tab
         .tabViewStyle(PageTabViewStyle())
