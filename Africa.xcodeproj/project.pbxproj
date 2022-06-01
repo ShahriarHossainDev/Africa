@@ -11,6 +11,7 @@
 		FA150F1028476688002A5884 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F0F28476688002A5884 /* ContentView.swift */; };
 		FA150F122847668A002A5884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA150F112847668A002A5884 /* Assets.xcassets */; };
 		FA150F152847668A002A5884 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA150F142847668A002A5884 /* Preview Assets.xcassets */; };
+		FA150F1C28476756002A5884 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA150F1B28476756002A5884 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FA150F0F28476688002A5884 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA150F112847668A002A5884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA150F142847668A002A5884 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA150F1B28476756002A5884 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		FA150F0128476688002A5884 = {
 			isa = PBXGroup;
 			children = (
+				FA150F1B28476756002A5884 /* README.md */,
 				FA150F0C28476688002A5884 /* Africa */,
 				FA150F0B28476688002A5884 /* Products */,
 			);
@@ -51,8 +54,11 @@
 		FA150F0C28476688002A5884 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
-				FA150F0D28476688002A5884 /* AfricaApp.swift */,
-				FA150F0F28476688002A5884 /* ContentView.swift */,
+				FA150F1F284767B2002A5884 /* View */,
+				FA150F20284767B9002A5884 /* Model */,
+				FA150F1E284767AC002A5884 /* Data */,
+				FA150F1D284767A2002A5884 /* App */,
+				FA150F21284767C0002A5884 /* Videos */,
 				FA150F112847668A002A5884 /* Assets.xcassets */,
 				FA150F132847668A002A5884 /* Preview Content */,
 			);
@@ -65,6 +71,43 @@
 				FA150F142847668A002A5884 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA150F1D284767A2002A5884 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FA150F0D28476688002A5884 /* AfricaApp.swift */,
+				FA150F0F28476688002A5884 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FA150F1E284767AC002A5884 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FA150F1F284767B2002A5884 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA150F20284767B9002A5884 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA150F21284767C0002A5884 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA150F1C28476756002A5884 /* README.md in Resources */,
 				FA150F152847668A002A5884 /* Preview Assets.xcassets in Resources */,
 				FA150F122847668A002A5884 /* Assets.xcassets in Resources */,
 			);
