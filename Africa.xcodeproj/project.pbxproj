@@ -30,6 +30,9 @@
 		FA150F422847743A002A5884 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F412847743A002A5884 /* MapView.swift */; };
 		FA150F442847744F002A5884 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F432847744F002A5884 /* GalleryView.swift */; };
 		FA150F4628477459002A5884 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F4528477459002A5884 /* MainView.swift */; };
+		FA150F482847B81A002A5884 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F472847B81A002A5884 /* CoverImageView.swift */; };
+		FA150F4A2847BBE7002A5884 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F492847BBE7002A5884 /* CoverImageModel.swift */; };
+		FA150F4D2847E12E002A5884 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F4C2847E12E002A5884 /* CodableBundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +61,9 @@
 		FA150F412847743A002A5884 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		FA150F432847744F002A5884 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		FA150F4528477459002A5884 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FA150F472847B81A002A5884 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		FA150F492847BBE7002A5884 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		FA150F4C2847E12E002A5884 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,12 +97,13 @@
 		FA150F0C28476688002A5884 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
-				FA150F3E28477211002A5884 /* Info.plist */,
+				FA150F4B2847E0E8002A5884 /* Extension */,
 				FA150F1F284767B2002A5884 /* View */,
 				FA150F20284767B9002A5884 /* Model */,
 				FA150F1E284767AC002A5884 /* Data */,
 				FA150F1D284767A2002A5884 /* App */,
 				FA150F21284767C0002A5884 /* Videos */,
+				FA150F3E28477211002A5884 /* Info.plist */,
 				FA150F112847668A002A5884 /* Assets.xcassets */,
 				FA150F132847668A002A5884 /* Preview Content */,
 			);
@@ -138,6 +145,7 @@
 		FA150F1F284767B2002A5884 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FA150F472847B81A002A5884 /* CoverImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -145,6 +153,7 @@
 		FA150F20284767B9002A5884 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FA150F492847BBE7002A5884 /* CoverImageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,6 +173,14 @@
 				FA150F2828476901002A5884 /* zebra.mp4 */,
 			);
 			path = Videos;
+			sourceTree = "<group>";
+		};
+		FA150F4B2847E0E8002A5884 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FA150F4C2847E12E002A5884 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,10 +270,13 @@
 			files = (
 				FA150F1028476688002A5884 /* ContentView.swift in Sources */,
 				FA150F4628477459002A5884 /* MainView.swift in Sources */,
+				FA150F482847B81A002A5884 /* CoverImageView.swift in Sources */,
+				FA150F4A2847BBE7002A5884 /* CoverImageModel.swift in Sources */,
 				FA150F422847743A002A5884 /* MapView.swift in Sources */,
 				FA150F0E28476688002A5884 /* AfricaApp.swift in Sources */,
 				FA150F40284773C6002A5884 /* VideoListView.swift in Sources */,
 				FA150F442847744F002A5884 /* GalleryView.swift in Sources */,
+				FA150F4D2847E12E002A5884 /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
