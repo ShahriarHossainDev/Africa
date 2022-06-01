@@ -26,6 +26,10 @@
 		FA150F3B2847695D002A5884 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = FA150F372847695D002A5884 /* locations.json */; };
 		FA150F3C2847695D002A5884 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = FA150F382847695D002A5884 /* animals.json */; };
 		FA150F3D2847695D002A5884 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = FA150F392847695D002A5884 /* videos.json */; };
+		FA150F40284773C6002A5884 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F3F284773C6002A5884 /* VideoListView.swift */; };
+		FA150F422847743A002A5884 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F412847743A002A5884 /* MapView.swift */; };
+		FA150F442847744F002A5884 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F432847744F002A5884 /* GalleryView.swift */; };
+		FA150F4628477459002A5884 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F4528477459002A5884 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +53,11 @@
 		FA150F372847695D002A5884 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		FA150F382847695D002A5884 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
 		FA150F392847695D002A5884 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
+		FA150F3E28477211002A5884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FA150F3F284773C6002A5884 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		FA150F412847743A002A5884 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FA150F432847744F002A5884 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		FA150F4528477459002A5884 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,7 @@
 		FA150F0C28476688002A5884 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				FA150F3E28477211002A5884 /* Info.plist */,
 				FA150F1F284767B2002A5884 /* View */,
 				FA150F20284767B9002A5884 /* Model */,
 				FA150F1E284767AC002A5884 /* Data */,
@@ -106,6 +116,10 @@
 			children = (
 				FA150F0D28476688002A5884 /* AfricaApp.swift */,
 				FA150F0F28476688002A5884 /* ContentView.swift */,
+				FA150F3F284773C6002A5884 /* VideoListView.swift */,
+				FA150F412847743A002A5884 /* MapView.swift */,
+				FA150F432847744F002A5884 /* GalleryView.swift */,
+				FA150F4528477459002A5884 /* MainView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -238,7 +252,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA150F1028476688002A5884 /* ContentView.swift in Sources */,
+				FA150F4628477459002A5884 /* MainView.swift in Sources */,
+				FA150F422847743A002A5884 /* MapView.swift in Sources */,
 				FA150F0E28476688002A5884 /* AfricaApp.swift in Sources */,
+				FA150F40284773C6002A5884 /* VideoListView.swift in Sources */,
+				FA150F442847744F002A5884 /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,11 +390,12 @@
 				DEVELOPMENT_TEAM = K6BJ9JXQPF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Africa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -401,11 +420,12 @@
 				DEVELOPMENT_TEAM = K6BJ9JXQPF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Africa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
