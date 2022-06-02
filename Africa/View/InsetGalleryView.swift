@@ -12,13 +12,19 @@ struct InsetGalleryView: View {
     let animal: Animal
     //MARK: - Body
     var body: some View {
-        HStack(alignment: .center, spacing: 15) {
-            Image(animal.gallery[0])
-                .resizable()
-                .scaledToFit()
-                .frame(height: 200)
-            .cornerRadius(12)
+        ScrollView(.horizontal, showsIndicators: false){
+            HStack(alignment: .center, spacing: 15) {
+                ForEach(animal.gallery, id: \.self){ item in
+                    Image(item)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(height: 200)
+                    .cornerRadius(12)
+                }
+                
+            }
         }
+        
     }
 }
 
