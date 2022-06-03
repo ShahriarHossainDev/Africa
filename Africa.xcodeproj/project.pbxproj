@@ -40,6 +40,7 @@
 		FA150F572847F1E7002A5884 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F562847F1E7002A5884 /* InsetGalleryView.swift */; };
 		FA150F592848EA1A002A5884 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F582848EA1A002A5884 /* InsetFactView.swift */; };
 		FA150F5B284A34D2002A5884 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F5A284A34D2002A5884 /* InsetMapView.swift */; };
+		FA150F5D284A3809002A5884 /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F5C284A3809002A5884 /* ExternalWeblinkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		FA150F562847F1E7002A5884 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
 		FA150F582848EA1A002A5884 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		FA150F5A284A34D2002A5884 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
+		FA150F5C284A3809002A5884 /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				FA150F562847F1E7002A5884 /* InsetGalleryView.swift */,
 				FA150F582848EA1A002A5884 /* InsetFactView.swift */,
 				FA150F5A284A34D2002A5884 /* InsetMapView.swift */,
+				FA150F5C284A3809002A5884 /* ExternalWeblinkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA150F5D284A3809002A5884 /* ExternalWeblinkView.swift in Sources */,
 				FA150F1028476688002A5884 /* ContentView.swift in Sources */,
 				FA150F4F2847E7FB002A5884 /* AnimalListItemView.swift in Sources */,
 				FA150F4628477459002A5884 /* MainView.swift in Sources */,

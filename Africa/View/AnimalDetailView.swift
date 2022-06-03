@@ -74,6 +74,13 @@ struct AnimalDetailView: View {
                 
                 // link
                 
+                Group{
+                    HeadingView(headingImage: "books.vertical", headingText: "Learn More")
+                    
+                    
+                }
+                .padding(.horizontal)
+                
             }
             .navigationBarTitle("Learn about \(animal.name)", displayMode: .inline)
         }
