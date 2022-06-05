@@ -46,6 +46,7 @@
 		FA150F63284A7E7F002A5884 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F62284A7E7F002A5884 /* VideoPlayerView.swift */; };
 		FA150F66284A7F8B002A5884 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F65284A7F8B002A5884 /* VideoPlayerHelper.swift */; };
 		FA150F68284C9410002A5884 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F67284C9410002A5884 /* LocationModel.swift */; };
+		FA150F6A284C976A002A5884 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA150F69284C976A002A5884 /* MapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		FA150F62284A7E7F002A5884 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		FA150F65284A7F8B002A5884 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		FA150F67284C9410002A5884 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		FA150F69284C976A002A5884 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				FA150F5C284A3809002A5884 /* ExternalWeblinkView.swift */,
 				FA150F60284A3AED002A5884 /* VideoListItemView.swift */,
 				FA150F62284A7E7F002A5884 /* VideoPlayerView.swift */,
+				FA150F69284C976A002A5884 /* MapAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				FA150F66284A7F8B002A5884 /* VideoPlayerHelper.swift in Sources */,
 				FA150F5B284A34D2002A5884 /* InsetMapView.swift in Sources */,
 				FA150F0E28476688002A5884 /* AfricaApp.swift in Sources */,
+				FA150F6A284C976A002A5884 /* MapAnnotationView.swift in Sources */,
 				FA150F40284773C6002A5884 /* VideoListView.swift in Sources */,
 				FA150F5F284A3A92002A5884 /* VideoModel.swift in Sources */,
 				FA150F442847744F002A5884 /* GalleryView.swift in Sources */,
