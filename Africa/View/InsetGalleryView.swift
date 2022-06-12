@@ -19,7 +19,7 @@ struct InsetGalleryView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(height: 200)
-                    .cornerRadius(12)
+                        .cornerRadius(12)
                 }
                 
             }
